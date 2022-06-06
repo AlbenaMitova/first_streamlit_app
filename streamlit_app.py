@@ -35,5 +35,3 @@ streamlit.text("Hello from Snowflake:")
 streamlit.text(my_data_row)
 
 insert into PC_RIVERY_DB.PUBLIC.FRUIT_LOAD_LIST values ('from streamlit');
-
-select * from PC_RIVERY_DB.PUBLIC.FRUIT_LOAD_LIST;
